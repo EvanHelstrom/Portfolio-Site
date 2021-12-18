@@ -1,0 +1,24 @@
+.navbar-nav > li{
+    padding-left:12%;
+    padding-right:12%;
+  }
+.nav-link ul {
+    list-style: none;
+    text-align: center;
+ }
+ .container {
+     display: block;
+ }
+ .nav-link ul li {
+    display: inline-block;
+ }
+ .navbar-light {
+     background-color: black;
+ }
+ .nav-link     {
+    color: white !important;
+ }
+ .navbar-brand {
+    color: white !important;
+ }
+ 
