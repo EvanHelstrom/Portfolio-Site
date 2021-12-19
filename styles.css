@@ -1,22 +1,25 @@
 .navbar-nav > li{
-    padding-left:12%;
-    padding-right:12%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
   }
-.nav-link ul {
-    list-style: none;
+.nav-left, .nav-right {
+flex: 1;
+}
+ol {
+    list-style-type: decimal;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
  }
  .container {
      display: block;
  }
- .nav-link ul li {
-    display: inline-block;
- }
  .navbar-light {
-     background-color: black;
+     background-color: rgb(14, 4, 104);
  }
  .nav-link     {
     color: white !important;
+    margin-right: 2em;
  }
  .navbar-brand {
     color: white !important;
