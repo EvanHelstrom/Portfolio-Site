@@ -2,11 +2,16 @@ body {
     background-color: rgb(228, 217, 217);
     color: rgb(5, 0, 0);
 }
+p, ul > li {
+    font-size: larger;
+    list-style-position: inside;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .context {
-    border-right-style: dotted;
-    border-left-style: dotted;
-    border-color: red;
-    border-width: 2px;
+    border-style: none;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
 }
 .intro {
     align-content: center;
@@ -26,6 +31,7 @@ body {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: large;
+    
   }
 .nav-left, .nav-right{
 flex: 1;
@@ -43,6 +49,7 @@ flex: 1;
 }
 .tri {
     flex: 33%;
+    align-content: center;
 }
 ol {
     list-style-type: decimal;
