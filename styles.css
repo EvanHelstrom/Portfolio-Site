@@ -47,10 +47,7 @@ flex: 1;
 .bi {
     flex: 50%;
 }
-.tri {
-    flex: 33%;
-    align-content: center;
-}
+
 ol {
     list-style-type: decimal;
     text-align: center;
@@ -70,4 +67,18 @@ ol {
  .navbar-brand {
     color: white !important;
  }
- 
+.tri {
+    flex: 33%;
+    align-content: center;
+}
+.face {
+    width: 50%;
+}
+@media (max-width: 800px) {
+    .tri{
+      flex: 100%;
+    }
+    .face {
+        width: 75%;
+    }
+  }
