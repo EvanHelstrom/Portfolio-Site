@@ -74,9 +74,14 @@ ol {
     flex: 33%;
     align-content: center;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .tri{
-      flex: 100%;
+        flex: 100%;
+    }
+    .bi {
+        flex: 100%;
+        justify-content: center;
+        text-align: center;
     }
     .face {
         width: 75%;
@@ -85,5 +90,13 @@ ol {
         border-left-style: none;
         border-color: rgb(0, 0, 0);
         border-width: 1px;
+    }
+    section {
+        padding-top: 20%
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .face {
+        width: 60%;
     }
   }
