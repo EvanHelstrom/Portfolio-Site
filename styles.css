@@ -1,3 +1,6 @@
+.face {
+    width: 50%;
+}
 body {
     background-color: rgb(228, 217, 217);
     color: rgb(5, 0, 0);
@@ -9,7 +12,7 @@ p, ul > li {
     padding-right: 10%;
 }
 .context {
-    border-style: none;
+    border-left-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 1px;
 }
@@ -71,14 +74,16 @@ ol {
     flex: 33%;
     align-content: center;
 }
-.face {
-    width: 50%;
-}
-@media (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .tri{
       flex: 100%;
     }
     .face {
         width: 75%;
+    }
+    .context {
+        border-left-style: none;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
     }
   }
