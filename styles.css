@@ -13,8 +13,11 @@ p, ul > li {
 }
 .context {
     border-left-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 1px;
+    border-color: rgba(80, 100, 150);      
+    border-width: 2px;
+}
+.eh {
+    padding-top: 1em;
 }
 .intro {
     align-content: center;
@@ -52,13 +55,14 @@ flex: 1;
 }
 .career-dates {
     border-right-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 1px;
+    border-color: rgba(80, 100, 150);      
+    border-width: 2px;
     flex: 33%;
     text-align: center;
 }
 .career-titles > h4 {
-    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .career-titles {
     flex: 66%;
