@@ -8,8 +8,8 @@ body {
 p, ul > li {
     font-size: larger;
     list-style-position: inside;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .context {
     border-left-style: solid;
@@ -50,7 +50,25 @@ flex: 1;
 .bi {
     flex: 50%;
 }
+.career-dates {
+    border-right-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    flex: 33%;
+    text-align: center;
+}
+.career-titles > h4 {
+    text-align: center;
+}
+.career-titles {
+    flex: 66%;
+    
+}
+.divider {
 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 ol {
     list-style-type: decimal;
     text-align: center;
@@ -93,6 +111,14 @@ ol {
     }
     section {
         padding-top: 20%
+    }
+    .career-dates {
+        border-width: 0px;
+        flex: 100%;
+    }
+    .career-titles {
+        flex: 100%;
+        text-align: center;
     }
   }
   @media screen and (max-width: 800px) {
