@@ -122,7 +122,6 @@ ol {
     }
     .career-titles {
         flex: 100%;
-        text-align: center;
     }
   }
   @media screen and (max-width: 800px) {
